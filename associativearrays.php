@@ -31,4 +31,10 @@ $values = array_values($capitals);
 
 $country = $_POST["country"];
 echo $capitals[$country];
+
+//ksort: sort the associative aray by keys (ascending)
+ksort($capitals);
+
+//asort : sort the associative array by values
+asort($capitals)
 ?>

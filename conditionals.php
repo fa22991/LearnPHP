@@ -21,6 +21,15 @@ if($adult){
 //&& : both conditions true
 //! : not
 // || : atleast one condition true
+// == : compares only value 
+// === : compares value + data type, strict comparision
+
+//ternary if
+
+$age = 12;
+$age > 12? "teen" : "kid"; //same as saying if age>13, set age to "teen", else set age to "kid"
+
+$set = $age ?: 0; //sets $set to $age if $age is set otherwise 0
 
 //switch statement
 

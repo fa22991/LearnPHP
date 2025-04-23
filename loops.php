@@ -33,4 +33,11 @@
     //now the problem with this entire block of code that i just wrote
     //is that even before i submit an input through my text field, the counter initializes to 0 and so
     //by default the numbers 1 to 20 are printed. this error is solved in loops_solved.php
+
+    //foreach loop
+    $nums = [1,2,3,4,5,6];
+    $sum = 0;
+    foreach($nums as $num){
+        $sum+=$num;
+    }
 ?>
